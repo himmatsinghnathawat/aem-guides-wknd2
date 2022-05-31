@@ -1,0 +1,74 @@
+.cmp-carousel {
+   
+
+}
+.cmp-carousel__content {
+    
+}
+.cmp-carousel__item {
+
+}
+.cmp-carousel__actions {
+display: flex;
+justify-content: space-between;
+    
+}
+.cmp-carousel__action {
+   
+}
+.cmp-carousel__action--disabled {}
+.cmp-carousel__action--previous {
+    color: red;
+    left: 5%;
+    padding: 10px;
+
+    z-index: 1;
+    border: none;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.cmp-carousel__action--next {
+    color: red;
+    
+    right: 5%;
+    z-index: 1;
+    border: none;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+.cmp-carousel__action--next2 {
+    color: blue;
+
+    right: 5%;
+    z-index: 1;
+padding: 10px;
+    border: none;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cmp-carousel__action--pause {}
+.cmp-carousel__action--play {}
+.cmp-carousel__action-icon {}
+.cmp-carousel__action-text {}
+.cmp-carousel__indicators {}
+.cmp-carousel__indicator {}
+.cmp-margin-top{
+    margin-top: 30px;
+}
+.cmp-margin-bottom{
+    margin-bottom: 30px;
+}
+.cmp-margin-right{
+    margin-right: 30px;
+}
+.cmp-margin-left{
+    margin-left: 30px;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Static Frontend file</title>
+    <meta name="template" content="page-content"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-base.css" type="text/css">
+    <link rel="stylesheet" href="/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+  </head>
+<body class="page basicpage">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div>
+
+          </div>
+
+
+
+
+          <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Button with data-bs-target
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+
+          <!--accordion-test-->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--accordion-test-->
+
+         
+          <!-- badge inbox box -->
+          <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+
+
+
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+          <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- card -->
+<div class="card" style="width: 18rem;">
+  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+          <!-- badge inbox box -->
+          <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+          <!-- badge inbox box -->
+          <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          10
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+          <!-- badge inbox box -->
+          <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              50+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+  </div>
+</div>
+
+
+
+
+<!-- carousel -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+      <h2  class="d-block w-100">hello </h2>
+    </div>
+    <div class="carousel-item">
+      <h2  class="d-block w-100">hello2 </h2>
+    </div>
+    <div class="carousel-item">
+      <h2  class="d-block w-100">hello3 </h2>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- custom accordion -->
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+
+<!-- <div>
+     <img src="\newaem\SRC\aem-guides-wknd\ui.content\src\main\content\jcr_root\content\dam\wknd\asset.jpg\_jcr_content\renditions\2201681.png"> 
+    <img src="/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/1156972.png" alt="hello">
+    <img src="/resources/images/17931.png" alt="hello">
+    <img src="../../../../../ui.frontend/src/main/webpack/resources/images/17931.png" alt="hello2">
+    <img src="https://pixabay.com/illustrations/avatar-icon-placeholder-symbol-659652/" alt="hello 4">
+    <img src="/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/17931.png" alt="hello5">
+    <img src="https://cdn.pixabay.com/photo/2015/03/04/22/35/avatar-659652_960_720.png" alt="okk">
+   
+</div> -->
+
+
+          
+
+   
+
+</body>
+</html>

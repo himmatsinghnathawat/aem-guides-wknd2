@@ -1,0 +1,97 @@
+// .cmp-button {
+    
+// }
+
+
+
+// .cmp-button__text {}
+// .cmp-button__icon {}
+
+//.cmp-button__icon--myIcon {}
+.btn-padding-left{
+    .cmp-button{
+padding-left: 20px;}
+}
+.btn-padding-right{
+    .cmp-button{
+    padding-right: 20px;
+    }
+}
+.btn-padding-top{
+    .cmp-button{
+    padding-top: 20px;
+    }
+}
+.btn-padding-bottom{
+    .cmp-button{
+    padding-bottom: 20px;
+    }
+}
+
+
+.btn-color-red{
+    .cmp-button{
+color: red;}
+}
+.btn-color-yellow{
+    .cmp-button{
+color: yellow;}
+}
+.btn-color-green{
+    .cmp-button{
+color: green;}
+}
+
+.red-background-color{
+    .cmp-button{
+    background-color: red;}
+}
+.green-background-color{
+    .cmp-button{
+    background-color: green;}
+}
+.yellow-background-color{
+    .cmp-button{
+    background-color: yellow;}
+}
+.pink-background-color{
+    .cmp-button{
+    background-color: pink;
+    }
+}
+.border-radius1{
+    .cmp-button{
+border-radius: 15px;
+    }
+}
+.border-radius2{
+    .cmp-button{
+    border-radius: 25px;}
+}
+.border-radius3{
+    .cmp-button{
+    border-radius: 35px;
+    }
+}
+.border-radius4{
+    .cmp-button{
+    border-radius: 45px;}
+
+}
+.btn-border-red{
+    .cmp-button{
+border: 5px solid red;}
+}
+.btn-border-black{
+    .cmp-button{
+    border: 5px solid black;}
+}
+.btn-border-yellow{
+    .cmp-button{
+    border: 5px solid yellow;}
+}
+.btn-border-blue{
+    .cmp-button{
+    border: 5px solid blue;}
+    
+}

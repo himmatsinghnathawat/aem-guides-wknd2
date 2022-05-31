@@ -1,0 +1,85 @@
+
+// .cmp-text { color: blue;
+//     font-family: $CharterITCStd;
+//     padding:30px ;
+//     display: flex;
+//     justify-content: space-around;
+//     }
+// .cmp-text2{
+//     color: red;
+//     font-size: 60px;
+// }
+.cmp-text__paragraph {}
+.text.cmp-padding-top{padding-top: 30px;}
+.cmp-padding-bottom{padding-bottom: 30px;}
+.cmp-padding-left{padding-left: 50px;}
+.cmp-padding-right{padding-right: 50px;}
+.cmp-font-extra-bold{
+    font-size: 60px;
+}
+
+.left-border{
+   border: 5px solid black; 
+}
+.right-border{
+    border: 5px solid black; 
+ }
+ .top-border{
+    border: 5px dotted  red; 
+ }
+ .bottom-border{
+    border: 5px dotted red; 
+ }
+
+// cms-bottom-border
+.text-padding-left{
+    padding-left: 10px;
+}
+.text-padding-right{
+    padding-right: 10px;
+}
+.text-padding-top{
+    padding-top: 10px;
+}
+.text-padding-bottom{
+    padding-bottom: 10px;
+}
+.text-pink-color{
+    color: pink;
+}
+.text-red-color{
+    color: red;
+}
+.text-yellow-color{
+    color: yellow;
+}
+.text-green-color{
+    color: green;
+}
+
+.text-font1-size{
+    font-size: 15px;
+}
+.text-font2-size{
+    font-size: 25px;
+    font-weight: bold;
+}
+.text-font3-size{
+    font-size: 30px;
+}
+.text-font4-size{
+    font-size: 25px;
+}
+
+.image-border-left{
+    border-left: 5px solid blue;
+}
+.image-border-right{
+    border-right: 5px solid blue;
+}
+.image-border-top{
+    border-top: 5px solid blue;
+}
+.image-border-bottom{
+    border-bottom: 5px solid blue;
+}
